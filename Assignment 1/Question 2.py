@@ -6,6 +6,7 @@ def start_calculator():
     def multiple(number1, number2):
         return number1 * number2
     def divide(number1, number2):
+        if(number2!=0):
             return number1 / number2
     start = True
     mathematical_operations = {
